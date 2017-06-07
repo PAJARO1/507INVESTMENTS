@@ -147,7 +147,8 @@ h4{
   color: white;
 
 }
-p{
+#about p{
+  margin-top: 50px;
   border-bottom: 1px solid white;
 }
 
@@ -326,7 +327,7 @@ button{
   color: white;
   background-color: white;
   font-family: 'Droid Sans', sans-serif;
-  margin-top: 50px;
+  margin-top: -50px;
 
  /*background: url(../img/square.jpg) no-repeat center center scroll;
   background-color: black;
@@ -555,19 +556,73 @@ section#contact button{
     font-size: 26px;
   }
 }
-/*ABOUT2 SECTION LOCATIONCONTACT */
+
+
+
+
+/**************************************ABOUT2 SECTION LOCATIONCONTACT ************************************************/
+
+
+
+
+@media (min-width: 768px){
+  #about2 .service-box{
+    margin-top: 150px;
+    padding-bottom: 25px;
+    color: black;
+  }
+  #about2{
+    padding-top: 100px;
+
+  }
+  #about2 .location{
+    padding-bottom: 50px;
+}
+.aintro{
+  padding-bottom: 50px;
+}
+.aintro p{
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 100;
+}
+}
+
 #about2{
   background-color: white;
-
+  width: auto;
   color: black;
- }
- .about2s{
-   font-size: 30px;
-   font-family: 'Droid Sans', sans-serif;
-   letter-spacing: 3px;
+  text-align: center;
+  font-family: 'Droid Sans', sans-serif;
 
+}
+#about2 .service-box{
+  padding-bottom: 25px;
+  font-weight: 100;
+  color: black;
+}
+#about2 .location{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 100;
+  border-bottom: 1px solid #bbb;
 
- }
+}
+p{
+  font-size: 18px;
+}
+
+#about2 .container{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-top: 1px solid #bbb;
+}
+.sb1{
+  font-size: 30px;
+  font-weight: 400;
+}
+
+ 
 #map {
   width: 100%;
   height: 200px;
