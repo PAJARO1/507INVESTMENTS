@@ -116,6 +116,9 @@ a:focus {
   background: rgb(0, 31, 63);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
+  .intro{
+      background: url(../img/barrons12.jpg)no-repeat bottom center scroll  ;
+  }
 }
 .intro{
   display: table;
@@ -124,13 +127,14 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/barrons12.jpg) ;
+  background: url(../img/barrons12.jpg);
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
+
 .brand-heading{
   color:white;
   font-family: 'Droid Sans', sans-serif;
