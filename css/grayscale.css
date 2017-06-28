@@ -115,7 +115,7 @@ a:focus {
   .navbar-custom.top-nav-collapse {
     padding: 0;
 
-      background: rgba(14, 16, 45, 0.9) !important;
+      background:rgba(54, 55, 62, 0.9) !important;
 
 
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -435,7 +435,7 @@ button{
 }
 footer {
   padding: 50px 0;
-  background: rgba(14, 16, 45, 0.9) !important;
+  background: rgba(54, 55, 62, 0.9) !important;
 
 }
 footer p {
